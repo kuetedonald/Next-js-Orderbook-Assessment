@@ -2,8 +2,8 @@ import { Signer, providers, Contract } from "ethers";
 
 import { addresses } from "../config/addresses";
 
-import pancakeSwapFactoryV2ABI from "../config/abi/pancakeSwapFactoryV2.json";
-import pancakeSwapRouterV2ABI from "../config/abi/pancakeSwapRouterV2.json";
+import pancakeSwapFactoryV2ABI from "../config/abi/PancakeSwapFactoryV2.json";
+import pancakeSwapRouterV2ABI from "../config/abi/PancakeSwapRouterV2.json";
 import erc20ABI from "../config/abi/erc20.json";
 
 export const getERC20Contract = (
