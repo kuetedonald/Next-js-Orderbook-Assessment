@@ -1,9 +1,3 @@
-# Tokens-swap
-
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/50517749/161720381-07fc3a62-e614-4db5-b13e-6ce5b84c46c6.png" data-canonical-src="https://user-images.githubusercontent.com/50517749/161720381-07fc3a62-e614-4db5-b13e-6ce5b84c46c6.png" width="700" />
-  <img src="https://user-images.githubusercontent.com/50517749/161720389-5fabd360-b3f4-43d2-995c-bf188fb755b9.png" data-canonical-src="https://user-images.githubusercontent.com/50517749/161720389-5fabd360-b3f4-43d2-995c-bf188fb755b9.png" width="700" />
-</div>
 
 ---
 
@@ -16,6 +10,3 @@ The swap functionality has been implemented using a set of [PancakeSwap](https:/
 
 The tradable tokens are pre-defined in a [list](/src/config/constants/pancakeSwapTokensList.json) consisting of the most traded tokens on PancakeSwap. The list has been taken from the [PancakeSwap Github repository](https://github.com/pancakeswap/pancake-frontend/tree/develop/src/config/constants/tokenLists).
 
-## Author
-
-- [yuripaoloni](https://github.com/yuripaoloni)
