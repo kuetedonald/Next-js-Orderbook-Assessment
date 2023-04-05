@@ -43,7 +43,7 @@ const Navbar = () => {
           </div>
 
           <img 
-            src={menu}
+            src={menu.src}
             alt="menu"
             className="w-[34px] h-[34px] object-contain cursor-pointer"
             onClick={() => setToggleDrawer((prev) => !prev)}
