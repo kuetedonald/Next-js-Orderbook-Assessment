@@ -32,11 +32,11 @@ const Sidebar = () => {
       
         
      
-        <div class="group flex items-center">
+        <div className="group flex items-center">
         <Icon styles="w-[52px] h-[52px]  border-[1px solid #ede4d1]  rounded-[50px]" isActive={"Me"} imgUrl={logo.src} />
-          <div class="ltr:ml-3 rtl:mr-3">
-            <p class="text-sm font-medium text-slate-700 group-hover:text-slate-900">Kuete Donald</p>
-            <p class="text-sm font-medium text-slate-500 group-hover:text-slate-700">Mid-senior</p>
+          <div className="ltr:ml-3 rtl:mr-3">
+            <p className="text-sm font-medium text-slate-700 group-hover:text-slate-900">Kuete Donald</p>
+            <p className="text-sm font-medium text-slate-500 group-hover:text-slate-700">Mid-senior</p>
           </div>
         </div>
 
