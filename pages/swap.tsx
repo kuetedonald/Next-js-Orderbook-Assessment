@@ -216,8 +216,6 @@ const Swap: NextPage = () => {
           
         </div>
 
-
-      <SwapHeader />
       
     </div>
   );
