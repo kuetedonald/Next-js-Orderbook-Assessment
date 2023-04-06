@@ -156,13 +156,15 @@ const Swap: NextPage = () => {
 
   return (
     <div className="min-h-screen bg-white dark:bg-slate-750">
+      <main>
       <div className="relative sm:-8 p-4 bg-[#fffefc] min-h-screen flex flex-row">
+
           <div className="flex-1 max-sm:w-full max-w-[1280px] mx-auto sm:pr-5">
                <OrderBook orientation="HORIZONTAL" />
           </div>
 
           <div className="sm:flex hidden mr-10 relative">
-            <main>
+            
               <div className="max-w-md mx-auto sm:px-6 lg:px-8 pt-8 lg:pt-14 2xl:pt-18">
                 <div className="shadow-xl rounded-3xl h-[480px] border-t-[1px] border-gray-100 dark:border-slate-800 dark:bg-slate-800">
                   <div className="border-b-[1px] border-gray-200 dark:border-gray-900 shadow-md p-3">
@@ -211,12 +213,12 @@ const Swap: NextPage = () => {
                   </div>
                 </div>
               </div>
-            </main>
+            
           </div>
           
         </div>
 
-      
+        </main>
     </div>
   );
 };
